@@ -1,0 +1,79 @@
+body {
+  background-color: #333;
+  color: white;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #333;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-card {
+  background-color: #444;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-card {
+  flex: 0 0 20%; /* Ajusta el tamaño del logo al 20% del ancho del contenedor */
+  max-width: 20%;
+  min-width: 20%;
+}
+
+.text-card {
+  flex: 0 0 65%; /* Ajusta el tamaño del texto al 75% del ancho del contenedor */
+  max-width: 65%;
+  min-width: 65%;
+}
+
+.logo {
+  max-width: 100%; /* Asegura que la imagen del logo no se deforme */
+  height: auto; /* Mantiene la proporción de la imagen */
+}
+
+.logo-text {
+  font-size: 14px; /* Ajusta el tamaño del texto */
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.card {
+  background-color: #444;
+  border-radius: 10px;
+  padding: 20px;
+  width: 30%; /* Ajusta el ancho de las tarjetas */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.card img {
+  width: 50%;
+  margin-bottom: 10px;
+}
+
+.card button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  color: white;
+  background: black;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.card button.contacto {
+  background: none;
+  border: 1px solid white;
+}

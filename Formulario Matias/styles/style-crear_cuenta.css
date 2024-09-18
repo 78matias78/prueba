@@ -1,0 +1,71 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.form-container {
+  max-width: 300px;
+  margin: auto;
+  padding: 20px;
+  background-color: #333;
+  border-radius: 8px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px; /* Reduce el espacio entre el label y el campo de entrada */
+}
+
+input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date] {
+  width: 280px; /* Cambiado a tamaño fijo */
+  padding: 10px; /* Agrega espacio dentro del campo de entrada */
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid white;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
+input[type=date]::-webkit-calendar-picker-indicator {
+  filter: invert(1); /* Invierte los colores del icono */
+  cursor: pointer;
+}
+
+input[type=submit], button {
+  width: 130px; /* Cambiado a tamaño fijo */
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 5px; /* Ajusta la posición horizontal */
+}
+
+.btn-enviar {
+  background-color: green;
+}
+
+.btn-borrar {
+  background-color: red;
+}
+
+button:hover, input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+a.volver {
+  display: block;
+  color: white;
+  text-decoration: underline;
+  margin-top: 20px; /* Ajusta la posición vertical del enlace */
+  text-align: left; /* Centra el enlace */
+}
+
+/* Comentarios para ajustar la posición de los botones 
+input[type=submit], button {/*
+   Para mover los botones horizontalmente, ajusta margin-left o margin-right */
+  /* Para mover los botones verticalmente, ajusta margin-top o margin-bottom
+} */

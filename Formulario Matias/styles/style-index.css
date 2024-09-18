@@ -1,0 +1,79 @@
+/* Estilos generales para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    background-color: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el contenedor del formulario de login */
+.login-container {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra el contenido horizontalmente */
+}
+
+/* Estilos para el logotipo */
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+/* Estilos para los campos de entrada */
+.login-container input {
+    width: 280px; /* Ajuste para el padding y el borde */
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff; /* Fondo blanco para los inputs */
+    color: #000; /* Texto negro para los inputs */
+}
+
+/* Estilos para el contenedor de los botones */
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Estilos específicos para los botones */
+.login-container button {
+    flex: 1; /* Ambos botones ocupan el mismo espacio */
+    padding: 10px;
+    margin: 10px 5px; /* Margen para separar los botones */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    background-color: #28a745; /* Fondo verde para el botón de enviar */
+    color: #fff; /* Texto blanco */
+}
+
+/* Estilos para el botón de envío al pasar el ratón por encima */
+.login-container button:hover {
+    background-color: #218838;
+}
+
+/* Estilos para el enlace de registro */
+.register-link {
+    display: block;
+    color: white;
+    text-decoration: underline;
+    margin-top: 20px; /* Ajusta la posición vertical del enlace */
+    text-align: center; /* Centra el enlace */
+}
+
+/* Estilos para el enlace de registro al pasar el ratón por encima */
+.register-link:hover {
+    background-color: transparent;
+}

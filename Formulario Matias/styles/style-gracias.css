@@ -1,0 +1,27 @@
+body {
+    display: flex; /*Utiliza flexbox para el diseño del contenedor principal */
+    flex-direction: column; /*Organiza los elementos hijos en una columna */
+    align-items: center; /*centos los elementos hijos verticalmente */
+    justify-content: center; /* centra los elementos hijos horizontalmente */
+    height: 100vh; /*La altura del contenedor es igual a la altura de la ventana del navegador.*/
+    margin: 0;/*Establece todos los márgenes (superior, inferior, izquierdo y derecho) del elemento en 0 píxeles*/
+    text-align: center; /*Centra el texto horizontalmente*/
+    background-color: black; /* Establece el fondo negro*/
+    color: white; /* Establece letras blancas */
+}
+
+h1 {
+    margin-bottom: 20px; /*Añade un margen inferior de 20 píxeles a h1 */
+}
+
+.gracias {
+    display: flex; /*Utiliza Flexbox para el elemento gracias */
+    justify-content: center; /* Centra los elementos hijos horizontalmente. */
+    align-items: center; /* Centra los elementos hijos verticalmente. */
+    width: 100%; /* El ancho del contenedor es de 100% */
+}
+
+.img-adjust {
+    max-width: 100%; /* La imagen no exedera el 100% del contenedor */
+    height: auto; /* La altura se ajusta automatica para mantener relacion de aspecto */
+}
